@@ -1,1 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: rgb(105,195,160);
+    text-decoration: none;
+    width: 100%;
+    align-items: center;   
+       
+}
+nav ul{
+    display: flex;
+    width: 100%; 
+    
+}
+nav li a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    margin-left: 1.25em;
+}
+nav li {
+    display: flex;
+    justify-content: space-between;
+}
+.My-Name{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    display: flex;
+    margin-left: 25%;
+    margin-right: auto;
+    
+}
+.My-Name a {
+    font-size: 40px;
+}
+.About-Me{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    font-size: 25px;
+    color: white;
 
+}
+.Heading-About-Me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: lightsalmon;
+        
+}
+.Heading-About-Me img{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+body{
+    background-image:url("./assets/cool-background.png");
+}
+p{
+    font-size: 25px;
+    line-height: 1.5;
+    color: lightpink;
+}
